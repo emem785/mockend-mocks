@@ -12,7 +12,7 @@
       "belongsTo": "Post"
     }
   },
-  "Transactions": {
+  "Transaction": {
     "price": {  "int": { "min": 0, "max": 1000 } },
     "narration": { "loremWords": { "minLength": 7, "maxLength": 20 } }
   }
